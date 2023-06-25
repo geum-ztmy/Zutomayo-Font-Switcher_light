@@ -5,13 +5,8 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
 });
 
 function ChangeFont() {
-    try {
-        const fontFace = new FontFace('ztmy_font', `url(${chrome.runtime.getURL('ZTMY_MOJI-R.otf')})`);
-        document.fonts.add(fontFace);
-    } catch (error) {
-        window.alert("フォントがフォルダの中にあるか確認してみてください。それでもエラーが出るようでしたら教えてください。")
-        console.log(error)
-    }
+    const fontFace = new FontFace('ztmy_font', `url(${chrome.runtime.getURL('ZTMY_MOJI-R.otf')})`);
+    document.fonts.add(fontFace);
 
     const elements = document.querySelectorAll('body *');
     for (let element of elements) {
