@@ -7,7 +7,8 @@
 
 <br>
 
-**2.「Zutomayo Font Switcher light」フォルダの中に自分で用意した(公式が配布してる)「ZTMY_MOJI-R.otf」を入れます。**
+**2.「Zutomayo Font Switcher light」フォルダの中に自分で用意した(公式が配布してる)「ZTMY_MOJI-R.otf」を入れます。**  
+  (公式配布場所)[https://zutomayo.net/font/]  
   以下のようになればOK
     
   Zutomayo Font Switcher light  
@@ -45,6 +46,6 @@
 
 # 注意事項
 個人で楽しむまでにし、再配布等はおやめください。  
-その他法に触れる行為等はおやめください。
+その他法に触れる行為等はおやめください。  
 <br>
 何か問題があればすぐに対応します。[twitter](https://twitter.com/geum_ztmy)にご連絡お願いします。
