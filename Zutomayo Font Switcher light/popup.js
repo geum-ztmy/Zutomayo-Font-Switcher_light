@@ -3,7 +3,3 @@ document.getElementById('showContent').addEventListener('click', () => {
         chrome.tabs.sendMessage(tabs[0].id, { action: 'showContent' });
     });
 });
-
-document.getElementById('doNothing').addEventListener('click', () => {
-    window.close();
-});

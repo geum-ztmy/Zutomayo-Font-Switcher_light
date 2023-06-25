@@ -1,11 +1,8 @@
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     if (msg.action === 'showContent') {
         ChangeFont();
-    } else if (msg.action === 'doNothing') {
-        doNothing();
     }
 });
-
 
 function ChangeFont() {
     try {
@@ -16,21 +13,10 @@ function ChangeFont() {
         console.log(error)
     }
 
-
     const elements = document.querySelectorAll('body *');
     for (let element of elements) {
         if (element.children.length === 0 && element.textContent.trim() !== '') {
             element.style.fontFamily = 'ztmy_font';
-        }
-    }
-}
-
-//意味のないコード
-function doNothing() {
-    const elements = document.querySelectorAll('body *');
-    for (let element of elements) {
-        if (element.children.length === 0 && element.textContent.trim() !== '') {
-            element.style.fontFamily = '';
         }
     }
 }
