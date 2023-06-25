@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "zutomayo_changer_light",
+    "version": "1.0",
+    "description": "サイト上の文字をずとまよフォントに変換します。漢字は消えちゃうことが多いです。",
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "ZTMY_MOJI-R.otf"
+    ]
+}
