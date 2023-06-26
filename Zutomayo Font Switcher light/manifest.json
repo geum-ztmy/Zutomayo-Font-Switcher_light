@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Zutomayo-Font-Switcher_light",
-    "version": "1.2",
+    "version": "1.3",
     "description": "サイト上の文字をずとまよフォントに変換します。漢字は消えちゃうことが多いです。",
     "permissions": [
         "activeTab"
